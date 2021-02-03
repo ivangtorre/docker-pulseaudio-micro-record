@@ -20,7 +20,7 @@ In the pop up window (pulseaudio preferences) on "Network Server" tab: Check "En
 
 Then **restart Ubuntu**
 
-## Exectue test
+## Execute test
 Clone repository:
 ```bash
 git clone https://github.com/ivangtorre/Docker-pulseaudio-micro-record && cd Docker-pulseaudio-micro-record
