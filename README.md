@@ -1,7 +1,7 @@
 # Docker-pulseaudio-micro-record
 This is a minimal Docker-Ubuntu configuration that is able to record sounds from a microphone using Pyaudio.
 
-Getting access to microphone from Pyaudio is a requirement in many Speech Recognition Systems and they are usually based on Dockers. It is not uncommon that accessing microphones from those Docker containers to become one of the biggest issues. Known problems include not having access at all or mute signal recorded.
+Getting access to microphone from Pyaudio is a requirement in many Speech Recognition Systems and they are usually based on Dockers. It is not uncommon for accessing microphones from those Docker containers to become one of the biggest problems. Reported issues include not having access at all or recorded muted signal.
 
 # Requirements
 This repo has been tested with Ubuntu 18.04, Python 3.6.9, Pyaudio 0.2.11, Docker version 19.03.11 and Pulseaudio 11.1. However it works with many other configurations.
